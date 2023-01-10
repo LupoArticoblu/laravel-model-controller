@@ -13,4 +13,12 @@ class PageController extends Controller
         $movies = Movie::all();
         return view('movie', compact('movies'));
     }
+    public function about(){
+        
+        return view('about');
+    }
+    public function DarkWeb(){
+        
+        return view('0000');
+    }
 }
